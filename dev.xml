@@ -11,6 +11,7 @@
   <remote fetch="https://github.com/advancedtelematic" name="advancedtelematic"/>
   <remote fetch="https://github.com/meta-qt5" name="qt"/>
   <remote fetch="https://github.com/STMicroelectronics/" name="stm" />
+  <remote fetch="https://git.yoctoproject.org/git/meta-intel" name="intel" />
 
   <project remote="yocto" revision="thud" name="poky" path="sources/poky"/>
   <project remote="oe" revision="thud" name="meta-openembedded" path="sources/meta-openembedded"/>
@@ -21,6 +22,6 @@
 
   <project remote="qt" revision="thud" name="meta-qt5" path="sources/meta-qt5"/>
 
-  <project remote="stm" revision="thud" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
+  <project remote="intel" revision="thud" name="meta-intel" path="sources/meta-intel"/>
 
 </manifest>
